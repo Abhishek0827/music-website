@@ -1,0 +1,351 @@
+@media screen and (max-width: 1100px) {
+  .bar {
+    flex-wrap: wrap;
+    /* background-color: yellow; */
+  }
+  .bg {
+    background-size: 1200px;
+  }
+  .image img {
+    width: 500px;
+  }
+  .contact {
+    margin: 100px 0 0 0;
+    /* border: 2px solid green; */
+    /* background-color: blue; */
+  }
+  .const {
+    flex-direction: column;
+    display: grid;
+    grid-gap: 20px;
+  }
+  .sugession2 {
+    height: 400px;
+    width: 320px;
+  }
+  .images {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1020px) {
+  /* .bar{
+        background-color: green;
+    } */
+  .bg {
+    background-size: 1000px;
+  }
+
+  .textplay h1 {
+    font-size: 60px;
+  }
+  .list {
+    width: 250px;
+  }
+
+  .list p {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .list {
+    width: 200px;
+  }
+  .list p {
+    width: 90px;
+  }
+  .playbutton{
+    height: 90px;
+    width: 200px;
+  }
+}
+@media screen and (max-width: 765px) {
+  /* .nav{
+    background-color: aqua;
+  } */
+  .contactus {
+    padding-top: 80px;
+  }
+}
+@media screen and (max-width: 765px) {
+  .bar {
+    /* background-color: green; */
+    justify-content: center;
+  }
+
+  .m h1 {
+    margin-top: 50px;
+  }
+  .frame {
+    margin: 50px 0;
+  }
+  .otherlist {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 610px) {
+  /* .bar {
+    background-color: rebeccapurple;
+  } */
+  .options ul {
+    width: 500px;
+    /* display: grid;
+        grid-template-columns: auto auto  auto;
+        grid-gap: 10px 0 ; */
+  }
+
+  .options ul li a {
+    font-size: 15px;
+  }
+  .m1 {
+    height: 600px;
+  }
+  .image1 img {
+    width: 200px;
+  }
+  .textplay h1 {
+    font-size: 30px;
+  }
+  .textplay h4 {
+    font-size: 10px;
+  }
+  .textplay p {
+    font-size: 10px;
+  }
+  .playbutton {
+    height: 100px;
+    width: 150px;
+  }
+  .playbutton .play {
+    height: 30px;
+    width: 60px;
+  }
+  .playbutton .save {
+    height: 30px;
+    width: 60px;
+  }
+}
+@media screen and (max-width: 521px) {
+  /* .bar{
+    background-color: red;
+  } */
+  .options ul {
+    width: 400px;
+  }
+  .options ul li {
+    width: 80px;
+  }
+  .image img {
+    width: 400px;
+  }
+  .m1 {
+    height: 400px;
+  }
+  .m1 h1 {
+    padding-top: 200px;
+    text-shadow: 2px 2px 10px #ff0000;
+    font-size: 36px;
+    /* border: 2px solid green; */
+  }
+}
+@media screen and (max-width: 480px) {
+  /* .bar{
+    background-color: #ff0000;
+  } */
+  .contactus {
+    font-size: 20px;
+  }
+  #query1 {
+    width: 334px;
+    height: 146px;
+  }
+}
+@media screen and (max-width: 450px) {
+  /* .bar {
+    background-color: aqua;
+  }*/
+  .playbutton { 
+    height: 60px;
+    width: 130px;
+  }
+  .playbutton .play {
+    height: 20px;
+    width: 40px;
+    font-size: 10px;
+  }
+  .playbutton .save {
+    height: 20px;
+    width: 40px;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  /* .bar {
+    background-color: green;
+  } */
+  .options ul {
+    width: 350px;
+  }
+  .options ul li {
+    width: 60px;
+  }
+  .options ul li a {
+    font-size: 11px;
+  }
+  .text1 {
+    font-size: 40px;
+  }
+  .text1 p {
+    font-size: 10px;
+  }
+  .image img {
+    width: 300px;
+  }
+  .contact h1 {
+    font-size: 40px;
+  }
+  .sugession1 {
+    width: 250px;
+  }
+  .sugession1 .visit-press {
+    margin-left: 25px;
+  }
+  .sugession2 {
+    width: 250px;
+  }
+  .sugession2 .visit-press {
+    margin-top: -40px;
+    margin-left: 25px;
+  }
+  .sugession3 {
+    width: 250px;
+  }
+  .sugession3 .visit-press {
+    margin-left: 25px;
+  }
+  .m1 {
+    height: 400px;
+  }
+  .box {
+    height: 300px;
+    width: 300px;
+  }
+  .images img {
+    height: 200px;
+    width: 220px;
+  }
+  .textplay h1 {
+    font-size: 20px;
+  }
+  .textplay p {
+    margin-top: 5px;
+  }
+  .list img {
+    width: 80px;
+    height: 70px;
+  }
+  .list p {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 390px) {
+  /* .bar {
+    background-color: red;
+  } */
+  .options ul {
+    width: 250px;
+  }
+  .options ul li {
+    width: 40px;
+  }
+  .options ul li a {
+    font-size: 9px;
+  }
+  .image img {
+    width: 250px;
+  }
+  .box1 img {
+    height: 200px;
+    width: 200px;
+  }
+  .box {
+    height: 200px;
+    width: 200px;
+  }
+  .images img {
+    height: 100px;
+    width: 120px;
+  }
+  .m1 h1 {
+    font-size: 30px;
+  }
+  .email h2 {
+    font-size: 20px;
+  }
+  .email input {
+    width: 250px;
+    height: 45px;
+  }
+  .phone h2 {
+    font-size: 20px;
+  }
+  .phone input {
+    width: 250px;
+    height: 45px;
+  }
+  .text h2 {
+    font-size: 20px;
+  }
+  #query1 {
+    width: 234px;
+    height: 146px;
+  }
+}
+@media screen and (max-width: 350px) {
+  /* .bar {
+    background-color: blue;
+  } */
+  .m1 h1 {
+    font-size: 26px;
+  }
+  .myticket {
+    width: 100px;
+    height: 40px;
+    font-size: 10px;
+  }
+  .playbutton {
+    height: 60px;
+    width: 90px;
+  }
+  .image1 img{
+    width: 150px;
+  }
+  .textplay h4{
+    font-size:6px;
+  }
+  .textplay p{
+    font-size:6px;
+  }
+}
+@media screen and (max-width: 290px) {
+  /* .bar{
+    background-color: #ff0000;
+  } */
+  .m1 {
+    height: 300px;
+  }
+  .m1 h1 {
+    padding-top: 150px;
+    font-size: 20px;
+  }
+  .email input {
+    width: 200px;
+    height: 40px;
+  }
+  .phone input {
+    width: 200px;
+    height: 40px;
+  }
+}
